@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# IDE-specific files
+.vscode/
+*.suo
+*.ntvs*
+*.user
+*.jscsrc
+*.jshintrc
+*.tern-project
+*.sass-cache/
+
+# Package managers
+node_modules/
+yarn-lock
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Test files
+tests/
+*.spec.js
+*.test.js
+
+# Temporary files and caches
+tmp/
+*.swp
+.sass-cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors
+.idea/
+*.iml
+
+# Miscellaneous
+*.log
+*.pid
+*.tmp
+*.orig
+*~
